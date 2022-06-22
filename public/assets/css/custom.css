@@ -1,0 +1,58 @@
+
+        .slick-prev,
+        .slick-next {
+            width: auto;
+            height: auto;
+            background: #00294d;
+            padding: 10px;
+            z-index: 40;
+        }
+
+        .slick-prev:hover,
+        .slick-prev:focus,
+        .slick-next:hover,
+        .slick-next:focus {
+            color: #eee;
+            opacity: 0.8;
+            background: #00294d;
+        }
+
+        .slick-next {
+            margin-right: 18px;
+        }
+
+        .slick-prev {
+            margin-left: 8px;
+        }
+
+        .slick-prev::before {
+            content: "\f053";
+        }
+
+        .slick-next::before {
+            content: "\f054";
+        }
+
+        .slick-prev::before,
+        .slick-next::before {
+            color: #eee;
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+        }
+
+
+        tr {
+                border: 1px solid gray;
+
+            }
+
+            th {
+                border: 1px solid gray;
+                padding: 10px;
+            }
+
+            td {
+                border: 1px solid gray;
+                padding: 10px;
+            }
+   
